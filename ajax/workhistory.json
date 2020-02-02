@@ -1,0 +1,8 @@
+{ 
+	"workhistory" :{
+		"items":[
+			"Founded in 2018, and based in the small town of Stormville, New York, the newely created start-up was the owner's, Wayne Johnson Jr., first foray into a small business venture. At 36 years old, he determined that his wealth of knowledge, over the last 10+ years of development efforts could be used to better serve his own future clients, where high quality software would be his main tenant.",
+			"His first client was Morgan Stanley, where he was put to task re-designing and developing the re-marketing desk's application, based on internal Morgan Stanley framework's. Using C#/WPF as a base for the client and interfacing with a java backend."
+		]
+	}
+}

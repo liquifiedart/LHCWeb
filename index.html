@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<!-- http://www.adventuresinwebdesign.com/samples/anchors/blog/ -->
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Lion's Head Consulting</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/adv.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> 
+
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="scripts/smoothscroll.js" type="application/javascript"></script>
+		<script src="scripts/history.js" type="application/javascript"></script>
+	</head>
+
+	<body>
+		
+		<header id="header">
+			<nav id="nav">
+				<a class="navlink" href="#main">Main</a>
+				<a class="navlink" href="#about">About</a>
+				<a class="navlink" href="projects/default.html">Projects</a>
+				<a class="navlink" href="mailto:lionsheadconsultinginc@gmail.com" style="float: right;">Contact</a>
+			</nav>
+		</header>
+		<div id="page-wrap">
+
+			<div id="page1">
+		  		<a id="main" class="smooth"></a>
+		    	<div class="page-padding"></div>
+		    	
+		    	<!-- Logo and Mission statement -->
+		    	<table align="center">
+				  <tr>
+				    <td><h1>Lion's</h1></td>
+				    <td><img src="images/lhc-logo.png"></img></td>
+				    <td><h1>Consulting</h1></td>
+				  </tr>
+				  <tr>
+				    <td colspan="3"><p id="mission"><i><b>"Providing excellence in software consulting and staffing services."</b></i></p></td>
+				  </tr>
+		    	</table>
+
+	    		<!-- What we do -->
+		    	<table class="content-container">
+		    		<tr>
+		    			<td><p class="main-content-header">What we do</p></td>
+		    		</tr>
+		    		<tr>
+		    			<td><p class="main-content-details">We provide consuting services for a wide range of technology and platforms to create the simplest and most elegant solutions to your business problems. Lion's Head Consulting also work with staffing partners to ensure the best and brightest talent is screened properly and ready for their new work assignment. Feel free to <a href="mailto:lionsheadconsultinginc@gmail.com" >contact us</a>  and explore our services.</p></td>
+		    		</tr>
+		    	</table>
+
+	    		<!-- Technology -->
+		    	<table class="content-container">
+		    		<tr>
+		    			<td><p class="main-content-header">Our Technology</p></td>
+		    		</tr>
+		    		<tr>
+		    			<td><p class="main-content-details">C/C++, C# (WPF, WinRT, UWP, ASP.NET WebAPI), Java<br>SQL Server, NoSQL, MongoDB<br>HTML, JavaScript<br>Windows, Linux</p></td>
+		    		</tr>
+		    	</table>
+
+	    		<!-- Philosophy -->
+		    	<table class="content-container">
+		    		<tr>
+		    			<td><p class="main-content-header">A Lion's Philosophy</p></td>
+		    		</tr>
+		    		<tr>
+		    			<td><p class="main-content-details">Strongest and wisest in the jungle today, because of the success's of yesterday. Be the best you tommorrow.</p></td>
+		    		</tr>
+		    	</table>		    	
+			</div>
+			<!--EnD page1-->
+
+			<div id="page2" style="display:none">
+		  		<a id="about" class="smooth"></a>
+				<div class="page-padding"></div>
+	    		<div align="center">
+					<!-- <img src="images/history mag-glass.png"></img> -->
+					<img src="images/lhc-logo.png"></img>
+	    		</div>
+
+	    		<!-- History -->
+		    	<table class="history-content-container">
+		    		<tr>
+		    			<td colspan="3"><p class="main-content-header">History</p></td>
+		    		</tr>
+		    		<tr>
+		    			<td><button id="prevHistory" class="history-button" onclick="PreviousHistory()"> &lt;</button></td>
+		    			<td><p id="history-content" class="history-content-details"></p></td>
+		    			<td><button  id="nextHistory" class="history-button" onclick="NextHistory()"> &gt;</button></td>
+
+		    		</tr>
+		    	</table>
+		    	<div align="center">
+		    	<div id="history-marker-container"></div>
+		    	</div>
+			</div>
+		</div>
+
+		<footer id="footer">			
+			<div id="footer-content">
+				<div>Copyright © 2018  Lion's Head Consulting, Inc.; all rights reserved.</div>
+				<address style="margin-bottom: 10px">2829 Whistle Dr. Burbank, CA 18291</address>
+			</div>
+		</footer>
+	</body>
+</html>

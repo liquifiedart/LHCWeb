@@ -1,0 +1,6 @@
+/* Advanced CSS*/
+@media screen and (max-width: 720px){
+	body{
+		background:purple;
+	}
+}

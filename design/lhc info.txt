@@ -1,0 +1,30 @@
+Website details
+Main
+	Title/Logo
+	Mission Statement
+		*Providing leading software consulting and staffing services from the head to the tail.
+		*We've come to expect the best from people, likewise, let us also expect the very best from the software solutions we craft.
+		Our clients needs will be met with high quality people and software solutions at a competitive cost.
+	Technologies
+		C/C++, C# (WPF, WinRT, UWP, ASP.NET WebAPI)
+		HTML, JavaScript
+		Windows, Linux
+	Philosophy
+		* Their is no shame in failure and no pride in success. Externalities, both people and things have little to do with your potential. 
+		You are crafted as an organic machine of potential. As you add stress to that machine, the machine will respond with new-found energy. This
+		is true in physicality and mental acquity. The God who created you, is faithful. You are a well of potential. So push yourself and observe what follows.
+		*Be the best you tommorrow.
+		You are a well of potential. So push yourself and observe what follows.
+About
+	Brief History (self promo)
+		- Founded in 2018, and based in the small town of Stormville, New York, the newely created start-up was the owner's, Wayne Johnson Jr.,
+		first foray into a small business venture. At 36 years old, he determined that 
+		his wealth of knowledge, over the last 10+ years of development efforts could be used to better serve his own future clients, where high quality 
+		software would be his main tenant.
+		His first client was Morgan Stanley, where he was put to task re-designing and developing the re-marketing desk's application,
+		based on internal Morgan Stanley framework's.
+	Employees: 1
+	Clients : Morgan Stanley
+	
+Contact
+	email : lionsheadconsultinginc@gmail.com
